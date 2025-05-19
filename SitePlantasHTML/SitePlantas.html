@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog de Plantas!</title>
 
-    <link rel="stylesheet" href="SitePlantas\style.css">
+    <link rel="stylesheet" href="..\SitePlantasCSS\style.css">
     
 </head>
 
@@ -31,10 +31,23 @@
     <p>
         Aqui, você encontrará não apenas produtos de qualidade, mas também um espaço para aprender, se inspirar e compartilhar seu amor pelas plantas. Vamos juntos criar um lar mais verde e saudável!
     </p>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swipe">
+    <script src="https://cdn.jsdelivr.net/n"></script>
+
+    <div class="meu-carrossel">
+        <button class="seta seta-esquerda" onclick="trocarImagem(-1)">&#10094;</button>
+        <img id="imagem-carrossel" src="../Imagens/Cerejeira.jpg" alt="Imagem do Carrossel">
+        <button class="seta seta-direita" onclick="trocarImagem(1)">&#10095;</button>
+      </div>
+      
+    <div class="texto-carrossel">
+        <p id="texto-descritivo"> As cerejeiras florescem no início da primavera </p>    </div>
+      <script src="../SitePlantasJS/SitePlantasJS.js"></script>
+
 </body>
 
-<footer> Feito por JulinCapixaba | 1º Período de Engenharia de Software 
-    <a href="https://biopark.com.br/"> </a>
- </footer>
+<footer> Feito por JulinCapixaba | 1º Período de Engenharia de Software
+    <a href="https://biopark.com.br/"> </a> </footer>
 
 </html>
