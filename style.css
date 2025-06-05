@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4ffd4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4ffd4;
+}
+
+.fotocabecalho {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+            color: rgb(3, 90, 3);
+            text-align: center; 
+            font-size: 2.5em;
+            margin-top: 50px;
+        }
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  background-color:rgb(187, 241, 187)
+}
+        p {
+            color: black;
+            font-size: 1.2em; 
+            line-height: 1.6; 
+            margin: 20px auto; 
+            max-width: 800px; 
+            text-align: justify;
+        }
+        .imagem {
+    height: auto;
+    width: 100%;
+        }
+
+.carrossel {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+
+.slides img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+   
+   footer {
+text-align: center;
+font-size: 14px;
+color: rgb(133, 12, 12) 
+   }
+
+   .subtitle {
+    line-height: 1.6; 
+            margin: 20px auto; 
+            max-width: 800px; 
+            text-align: justify;
+    color: rgb(10, 44, 4);
+   }
+    
+  
