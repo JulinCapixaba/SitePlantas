@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.botao-entrar {
+  background-color: white;      
+  color: green;                 
+  padding: 8px 16px;              
+  border-radius: 6px;           
+  border: 2px solid green;      
+  font-weight: bold;            
+  transition: all 0.3s ease;    
+}
+
+.botao-entrar:hover {
+  background-color: green;        
+  color: white;                 
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4ffd4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4ffd4;
+}
+
+.fotocabecalho {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+            color: rgb(3, 90, 3);
+            text-align: center; 
+            font-size: 2.5em;
+            margin-top: 50px;
+        }
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  background-color:rgb(187, 241, 187)
+}
+        p {
+            color: black;
+            font-size: 1.2em; 
+            line-height: 1.6; 
+            margin: 20px auto; 
+            max-width: 800px; 
+            text-align: justify;
+        }
+        .imagem {
+    height: auto;
+    width: 100%;
+        }
+
+.carrossel {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+
+.slides img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+   
+   footer {
+text-align: center;
+font-size: 14px;
+color: rgb(133, 12, 12) 
+   }
+
+   .subtitle {
+    line-height: 1.6; 
+            margin: 20px auto; 
+            max-width: 800px; 
+            text-align: justify;
+    color: rgb(10, 44, 4);
+   }
+    
+form {
+  text-align: center;
+  max-width: 400px;      
+    margin: 0 auto;            
+    padding: 20px;         
+    border-radius: 8px;   
+    box-shadow: 0 0 10px rgba(1, 56, 1, 0.1); 
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.botoes button {
+  font-family: 'Poppins', sans-serif;
+  flex: 1;
+  padding: 12px; 
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.botoes button:hover {
+  background-color: #1f4d20;  
+  color: #fff;                
+  transform: scale(1.05);     
+  transition: all 0.3s ease;  
+  border-radius: 8px;
+}
+
+.foia {
+    position: fixed;
+    top: -50px;                 
+    width: 25px;                
+    opacity: 0.8;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;      
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -50px;
+      transform: translateX(0) rotate(0deg);
+      opacity: 0.8;
+    }
+
+    80% {
+      opacity: 0.8;
+
+    }
+    100% {
+      top: 110vh;             
+      transform: translateX(100px) rotate(360deg);
+      opacity: 0;
+    }
+}
